@@ -18,7 +18,7 @@ const Home = () => {
     const fetchAllPosts = async () => {
         try {
             let { data } = await axios.get(`${Api.url}/post` + search)
-            console.log(data);
+            // console.log(data);
             setPostData(data)
         } catch (error) {
             console.log(error);

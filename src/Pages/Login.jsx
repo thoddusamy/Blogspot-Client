@@ -92,7 +92,7 @@ const Login = () => {
                         <Box mt={5}>
                             <FormLabel>Username</FormLabel>
                             <Input variant='flushed' type='text' placeholder='Username here . . .'
-                                onChange={formik.handleChange} value={formik.values.username}
+                                onChange={formik.handleChange} value={formik.values.username = "demo_user"}
                                 name="username" />
                         </Box>
                         <Box>
@@ -102,7 +102,7 @@ const Login = () => {
                                     pr='4.5rem'
                                     type={show ? 'text' : 'password'}
                                     placeholder='Password here . . .'
-                                    onChange={formik.handleChange} value={formik.values.password}
+                                    onChange={formik.handleChange} value={formik.values.password = "123456789"}
                                     name="password"
                                 />
                                 <InputRightElement width='4.5rem'>
