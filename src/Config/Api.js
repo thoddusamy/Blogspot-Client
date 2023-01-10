@@ -1,3 +1,3 @@
 export const Api = {
-    url: "https://blogspot-blogapp.herokuapp.com"
+    url: "https://blogspot-qz8g.onrender.com"
 }
